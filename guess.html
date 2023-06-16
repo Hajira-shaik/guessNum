@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+    <div class="con">
+        <center><h1>!-Play Guess My Number-!</h1></center><hr><br>
+        <center><h2>Rule:</h2></center>
+        <center><p class="p">Select a Number Between 1 to 100 and Guess it!!!!<p></center>
+        <div class="d">
+           <center><p class="p">Guess the Number  :<input type="number" id="num"></center></p>
+        </div>
+        <center><div id="result"></div></center>
+        <div class="btn">
+            <input type="submit" value="check" id="check" onclick="check()">
+            <input type="submit" value="Reset" id="reset" onclick="window.location.reload()">
+        </div>
+    </div>
+    <script src="guess.js"></script>
+</body>
+</html>

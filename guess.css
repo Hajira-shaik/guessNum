@@ -1,0 +1,80 @@
+.con
+{
+    height:500px;
+    width:600px;
+    border: 10px solid black;
+    margin:auto;
+    position:relative;
+    padding:30px;
+    background-color: rgb(213, 184, 241);
+    margin-top:7%;
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size:30px;
+    color:red;
+}
+h3{
+    font-size:25px;
+}
+.btn
+{
+    display:flex;
+    margin-top:13%;
+    justify-content: space-evenly;
+}
+hr{
+  color:black;
+}
+#check
+{
+  width:20%; 
+  font-size:15px; 
+  cursor:pointer;
+}
+.p
+{
+    font-size:22px;
+}
+#reset
+{
+    font-size:15px;
+    width:20%;
+    cursor:pointer;
+}
+#result
+{
+position: absolute;
+height:50px;
+width:fit-content;
+margin-left:12%;
+color:black;
+font-size:21px;
+}
+.d
+{
+    margin:auto;
+}
+input,
+  textarea {
+    width: 30%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+
+  }
+  #check:hover
+  {
+    color:red;
+  }
+  #reset:hover{
+    color:red;
+  }
